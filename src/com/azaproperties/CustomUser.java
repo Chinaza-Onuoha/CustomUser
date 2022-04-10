@@ -7,13 +7,15 @@ public class CustomUser {
     private String zipCode;
     private String ipAddress;
     private String password;
+    private String contact;
 
-    public CustomUser(String ID, String name, String location, String zipCode, String ipAddress, String password) {
+    public CustomUser(String ID, String name, String location, String zipCode, String ipAddress, String password,String contact) {
         this.ID = ID;
         this.name = name;
         this.location = location;
         this.zipCode = zipCode;
         this.ipAddress = ipAddress;
         this.password = password;
+        this.contact = contact;
     }
 }
